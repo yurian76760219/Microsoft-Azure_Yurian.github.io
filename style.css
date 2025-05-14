@@ -1,4 +1,3 @@
-/* Nuevo estilo.css con un diseño más moderno */
 * {
     margin: 0;
     padding: 0;
@@ -164,6 +163,28 @@ body {
     box-shadow: 0 8px 20px rgba(110, 142, 251, 0.3);
 }
 
+/* Lista de links para Trabajo Final */
+.project-links-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.project-links-list li {
+    margin: 8px 0;
+}
+
+.project-links-list a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.project-links-list a:hover {
+    color: #a777e3;
+}
+
 /* Footer */
 .footer {
     background-color: #1a1f36;
@@ -180,11 +201,11 @@ body {
         grid-template-columns: 1fr;
         width: 95%;
     }
-    
+
     .nav-links {
         display: none;
     }
-    
+
     .project-title {
         font-size: 1.2rem;
     }
